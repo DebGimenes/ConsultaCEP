@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulte CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Formulário com uso de pelo menos uma imagem(fundo)-->
+    <form>
+        <div id="fundo">
+            <div class="introducao">
+                <h1>Consulte seu CEP</h1>
+                <p>Saiba o endereço ao inserir o CEP</p>
+            </div>
+            <div class="inserir">
+                <label for="nome-cep">CEP*</label>
+                <input type="text" id="cep" placeholder="Insira seu CEP aqui">
+            </div>
+            <div class="botao">
+                <input type="button" value="Consultar" id="botao-consulta">
+            </div>
+        </div>
+    </form>
+
+    <div id="tabela">
+        <!--Tabela ou Card-->
+        <table id="fundo-tabela">
+            <tr>
+                <th class="coluna">
+                    <label for="rua" class="label">Rua</label>
+                    <input type="text" id="rua" class="input">
+                </th>
+            </tr>
+            <tr>
+                <th class="coluna">
+                    <label for="bairro" class="label">Bairro</label>
+                    <input type="text" id="bairro" class="input">
+                </th>
+            </tr>
+            <tr>
+                <th class="coluna">
+                    <label for="localidade" class="label">Localidade</label>
+                    <input type="text" id="localidade" class="input">
+                </th>
+            </tr>
+            <tr>
+                <th class="coluna">
+                    <label for="uf" class="label">UF</label>
+                    <input type="text" id="uf" class="input">
+                </th>
+            </tr>
+            <tr>
+                <th class="coluna">
+                    <label for="ddd" class="label">DDD</label>
+                    <input type="text" id="ddd" class="input">
+                </th>
+            </tr>
+            <tr>
+                <th class="coluna">
+                    <label for="complemento" class="label">Complemento</label>
+                    <input type="text" id="complemento" class="input">
+                </th>
+            </tr>
+        </table>
+    </div>
+<script src="script.js"></script>
+</body>
+
+
+</html>
